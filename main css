@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    font-size: 40px;
+    font-family: ravie;
+    font-weight: bold;
+    padding: 5px;
+    border: 5px solid  #ff6b6b; 
+    margin: 10px;
+    background: #ff6b6b
+}
+
+h1 {
+    font: bold 30px ravie
+}
+body {
+    text-align: center;
+}
+header,nav,section,aside,footer {
+    display: block
+}
+div {
+    width: 900px;
+    background: #4cd137;
+    margin: 30px auto;
+    padding: 30px;
+   
+}
+.nave li {
+    border: 2px solid #0fbcf9;
+    list-style: none;
+    padding: 5px;
+    font: lighter 25px Haettenschweiler;
+    display: inline-block;
+    margin: 5px
+}
+section {
+    width: 75%; 
+    float: left
+}
+article {
+    background: #ee5253;
+    border: 3px solid black;
+    padding: 5px;
+    margin:5px;
+    list-style: none
+}
+.palabras li {
+    text-align:left;
+    list-style: none;
+    font-family: Comic Sans MS
+}
+.columna {
+    width: 22%;
+    float: right
+}
+.columna blockquote {
+    border: 2px dashed black;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #eccc68
+}
+.pie {
+    clear: both;
+    color: #8395a7;
+}
